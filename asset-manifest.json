@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/the-finger/static/css/main.50794bc0.chunk.css",
+    "main.js": "/the-finger/static/js/main.fd0c2337.chunk.js",
+    "main.js.map": "/the-finger/static/js/main.fd0c2337.chunk.js.map",
+    "runtime-main.js": "/the-finger/static/js/runtime-main.be5926ab.js",
+    "runtime-main.js.map": "/the-finger/static/js/runtime-main.be5926ab.js.map",
+    "static/js/2.9b2d82ee.chunk.js": "/the-finger/static/js/2.9b2d82ee.chunk.js",
+    "static/js/2.9b2d82ee.chunk.js.map": "/the-finger/static/js/2.9b2d82ee.chunk.js.map",
+    "static/js/3.f3752b29.chunk.js": "/the-finger/static/js/3.f3752b29.chunk.js",
+    "static/js/3.f3752b29.chunk.js.map": "/the-finger/static/js/3.f3752b29.chunk.js.map",
+    "index.html": "/the-finger/index.html",
+    "static/css/main.50794bc0.chunk.css.map": "/the-finger/static/css/main.50794bc0.chunk.css.map",
+    "static/js/2.9b2d82ee.chunk.js.LICENSE.txt": "/the-finger/static/js/2.9b2d82ee.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/the-finger/static/media/finger-removebg-preview.35e62c42.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be5926ab.js",
+    "static/js/2.9b2d82ee.chunk.js",
+    "static/css/main.50794bc0.chunk.css",
+    "static/js/main.fd0c2337.chunk.js"
+  ]
+}
