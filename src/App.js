@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+function Room() {
+    const [io, setIo] = useState(0)
+    
+    const switchOff = () => {
+        setIo(1)
+        setTimeout( () => {
+            setIo(0)
+        }, 500)
+    }
+       
+    return (
+        <div className={io ? 'room lit' : 'room dark'}>
+            <div className={io ? 'kuckuck' : 'null'}></div>
+            <button onClick={ () => setIo(io ? 0 : switchOff) }>{io ? 'TOO BRIGHT!' : ''/* 'too dark!' */}</button>
+        </div>
+    )
 }
 
-export default App;
+function App() {
+    return (
+            <Room />
+    )
+}
+
+export default App
+/* ReactDOM.render(
+    <App />,
+    document.querySelector('#root')
+) */
